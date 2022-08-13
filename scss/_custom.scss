@@ -12,5 +12,9 @@ $info: $accent;
 $light: $white;
 $dark: $black;
 
+$font-size: 16px;
+$scale-font: 1.618;
+
+
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
