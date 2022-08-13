@@ -1,0 +1,16 @@
+//MY THEME COLORS
+$white: #f2ece9;
+$accent: #0091f7;
+$black: #0d0d0d;
+$gray-800: #262626;
+$gray-100: #a6a3a1;
+
+//OVERRIDES COLOR BOOTSTRAP
+$primary: $black;
+$secondary: $white;
+$info: $accent;
+$light: $white;
+$dark: $black;
+
+//IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
