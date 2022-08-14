@@ -1,4 +1,51 @@
 @charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, blockquote, pre, a, code, em, img, small, .small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10757,6 +10804,47 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.h-xl {
+  font-size: 4.25rem;
+  line-height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.h-lg {
+  font-size: 2.625rem;
+  line-height: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.h-md {
+  font-size: 1.625rem;
+  line-height: 2.625rem;
+  margin-top: 1.3125rem;
+  margin-bottom: 1.3125rem;
+}
+
+.h-sm {
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  margin-top: 1.3125rem;
+  margin-bottom: 0rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  margin-top: 0rem;
+  margin-bottom: 1.3125rem;
+}
+
+.paragraph-sm {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin-top: 0rem;
+  margin-bottom: 1.3125rem;
 }
 
 /*# sourceMappingURL=style.css.map */

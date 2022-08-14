@@ -1,3 +1,5 @@
+@import "./resets";
+
 //MY THEME COLORS
 $white: #f2ece9;
 $accent: #0091f7;
@@ -11,9 +13,6 @@ $secondary: $white;
 $info: $accent;
 $light: $white;
 $dark: $black;
-
-$font-size: 16px;
-$scale-font: 1.618;
 
 
 //IMPORT BOOTSTRAP 5
