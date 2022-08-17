@@ -1,41 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@400;500;600;700&display=swap");
+
+$primaryFont: "Syne";
+$secondaryFont: "Inter";
+
 .h-xl {
+  font-family: $primaryFont, sans-serif;
+  font-weight: 700;
   font-size: 4.25rem;
   line-height: 4.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  /*margin-top: 1.5rem;
+  margin-bottom: 3rem;*/
 }
 
 .h-lg {
+  font-family: $primaryFont, sans-serif;
+  font-weight: 600;
   font-size: 2.625rem;
   line-height: 3rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  /*margin-top: 1.5rem;
+  margin-bottom: 1.5rem;*/
 }
 
 .h-md {
+  font-family: $primaryFont, sans-serif;
+  font-weight: 500;
   font-size: 1.625rem;
-  line-height: 2.625rem;
-  margin-top: 1.3125rem;
-  margin-bottom: 1.3125rem;
+  line-height: 3rem;
+  /*margin-top: 1.5rem;
+  margin-bottom: 0;*/
 }
 
 .h-sm {
+  font-family: $primaryFont, sans-serif;
+  font-weight: 400;
   font-size: 1rem;
-  line-height: 1.3125rem;
-  margin-top: 1.3125rem;
-  margin-bottom: 0rem;
+  line-height: 1.5rem;
+  /*margin-top: 1.5rem;
+  margin-bottom: 0rem;*/
 }
 
 .paragraph {
+  font-family: $secondaryFont, sans-serif;
+  font-weight: 400;
   font-size: 1rem;
-  line-height: 1.3125rem;
-  margin-top: 0rem;
-  margin-bottom: 1.3125rem;
+  /*margin-top: 0rem;
+  margin-bottom: 1.5rem;*/
 }
 
 .paragraph-sm {
+  font-family: $secondaryFont, sans-serif;
+  font-weight: 300;
   font-size: 0.875rem;
   line-height: 1.3125rem;
-  margin-top: 0rem;
-  margin-bottom: 1.3125rem;
+  /*margin-top: 0rem;
+  margin-bottom: 1.3125rem;*/
 }

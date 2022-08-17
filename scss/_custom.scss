@@ -8,12 +8,16 @@ $gray-800: #262626;
 $gray-100: #a6a3a1;
 
 //OVERRIDES COLOR BOOTSTRAP
-$primary: $black;
-$secondary: $white;
+$primary: $white;
+$secondary: $black;
 $info: $accent;
 $light: $white;
 $dark: $black;
 
+
+main {
+    background-color: $black;
+}
 
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
