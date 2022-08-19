@@ -1,2 +1,20 @@
 @use "../custom" as *;
 
+.navbar {
+  &__container {
+    margin: 0 128px;
+
+    &__link,
+    .navbar-brand {
+      color: $gray-100;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+
+    &__link {
+      font-weight: 300;
+    }
+  }
+}
